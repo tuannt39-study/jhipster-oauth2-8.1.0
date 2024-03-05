@@ -1,0 +1,18 @@
+{
+  "annotations": {
+    "changelogDate": "20240305162817"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "region",
+  "fields": [
+    {
+      "fieldName": "regionName",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Region",
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}

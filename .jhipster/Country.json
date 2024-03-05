@@ -1,0 +1,25 @@
+{
+  "annotations": {
+    "changelogDate": "20240305162917"
+  },
+  "applications": "*",
+  "dto": "mapstruct",
+  "entityTableName": "country",
+  "fields": [
+    {
+      "fieldName": "countryName",
+      "fieldType": "String"
+    }
+  ],
+  "name": "Country",
+  "relationships": [
+    {
+      "otherEntityName": "region",
+      "relationshipName": "region",
+      "relationshipSide": "left",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "searchEngine": "no",
+  "service": "serviceImpl"
+}
